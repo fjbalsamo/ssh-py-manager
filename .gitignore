@@ -1,0 +1,5 @@
+build/
+dist/
+ssh_py_manager.egg-info/
+venv/
+**/__pycache__/
