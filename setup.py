@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = "0.0.1"
+VERSION = "1.0.0"
 PACKAGE_NAME = "ssh_py_manager"
 AUTHOR = "Franco Balsamo"
 AUTHOR_EMAIL = "fjbalsamo@gmail.com"

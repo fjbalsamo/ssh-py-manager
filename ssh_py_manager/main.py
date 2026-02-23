@@ -1,12 +1,9 @@
-from .Questions.Questions_Class import Questions
-from .Ssh.Auth import SshAuth
+from .Core import Core
 
 
 def main():
-
-    ask = Questions().ask()
-
-    SshAuth(ssh_directory=ask["ssh_directory"], key=ask["key"], delete=ask["delete"])
+    core = Core()
+    core.ask()
 
 
 if __name__ == "__main__":
